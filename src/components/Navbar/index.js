@@ -14,7 +14,7 @@ const Navbar = () => {
     <Nav>
       <NavbarContainer>
         <NavLogo to='/'>
-          <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
+          <a style={{ display: "flex", alignItems: "center", color: "black", marginBottom: '20;', cursor: 'pointer' }}>
             <DiYeoman  size="3rem" /> <Span>Portfolio</Span>
           </a>
         </NavLogo>
