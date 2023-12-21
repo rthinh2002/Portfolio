@@ -8,15 +8,14 @@ export const Bio = {
     description:
       "I am a passionate software engineer who loves to build and create new things, hands-on experience, and profound knowledge in software development. I’m dedicated to leverage my coding experience in application development and enhancing my craftsmanship to deliver efficient, reliable, and secure software solutions",
     github: "https://github.com/rthinh2002",
-    resume:
-      "https://drive.google.com/file/d/1H_fc4pQoYTmqIj2xm0qWfk3rtNb4Qldr/view?usp=sharing",
-        linkedin: "https://www.linkedin.com/in/xuan-thinh-le/",
-        insta: "https://www.instagram.com/peterlethinh/"
+    resume:"https://drive.google.com/file/d/1td9tKejQ-zRXCe_ZSS3GSPGeyoC-AfmM/view?usp=sharing",
+    linkedin: "https://www.linkedin.com/in/xuan-thinh-le/",
+    insta: "https://www.instagram.com/peterlethinh/"
   };
   
   export const skills = [
     {
-      title: "Front End",
+      title: "Front-End",
       skills: [
         {
           name: "React Js",
@@ -65,7 +64,7 @@ export const Bio = {
       ],
     },
     {
-      title: "Backend",
+      title: "Back-End",
       skills: [
         {
           name: "Node Js",
