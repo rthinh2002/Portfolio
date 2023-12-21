@@ -164,7 +164,7 @@ export const Bio = {
   export const experiences = [
     {
       id: 0,
-      img: "https://storage.cloud.google.com/sacresbucket1/ebottli.png",
+      img: "https://firebasestorage.googleapis.com/v0/b/portfolio-3b961.appspot.com/o/ebottli.png?alt=media&token=38a8b886-fe8d-4153-83ac-515fa170397c",
       role: "Software Engineer",
       company: "eBottli",
       date: "Apr 2023 - Present",
@@ -330,7 +330,7 @@ export const Bio = {
       description:
         "Participated in the commercial project with Jung Talents Team to create a website for clients in the healthcare sector, specifically in optometrist.",
       image:
-        "https://storage.cloud.google.com/sacresbucket1/2023-12-21_185336.png",
+        "https://firebasestorage.googleapis.com/v0/b/portfolio-3b961.appspot.com/o/carina.png?alt=media&token=fe0db45f-dfb5-4875-920f-42f9e93494c8",
       tags: [
         "Next JS",
         "React JS",
@@ -390,7 +390,7 @@ export const Bio = {
       description:
         "A web application to help users learn English through games. This is a website built for Hackathon 2023. The application is built using JavaScript, Node.js, HTML, and CSS",
       image:
-        "https://storage.cloud.google.com/sacresbucket1/2023-12-21_190312.png",
+        "https://firebasestorage.googleapis.com/v0/b/portfolio-3b961.appspot.com/o/english-learning.png?alt=media&token=2e6eb065-a824-4ba4-8ec0-222b28a82ff6",
       tags: [
         "Vercel",
         "Node Js",
