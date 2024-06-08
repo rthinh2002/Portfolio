@@ -8,7 +8,7 @@ export const Bio = {
     description:
       "I am a passionate software engineer who loves to build and create new things, hands-on experience, and profound knowledge in software development. I’m dedicated to leverage my coding experience in application development and enhancing my craftsmanship to deliver efficient, reliable, and secure software solutions",
     github: "https://github.com/rthinh2002",
-    resume:"https://drive.google.com/file/d/1td9tKejQ-zRXCe_ZSS3GSPGeyoC-AfmM/view?usp=sharing",
+    resume:"https://drive.google.com/file/d/1gTEVtG7mjxXaaTfIF8IhQ6mVjWxKZG9h/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/xuan-thinh-le/",
     insta: "https://www.instagram.com/peterlethinh/"
   };
