@@ -10,7 +10,7 @@ const Projects = ({openModal,setOpenModal}) => {
   return (
     <Container id="projects">
       <Wrapper>
-        <Title>Projects</Title>
+        <Title>Projects - Blogs</Title>
         <ToggleButtonGroup >
           {toggle === 'all' ?
             <ToggleButton active value="all" onClick={() => setToggle('all')}>All</ToggleButton>
@@ -18,15 +18,20 @@ const Projects = ({openModal,setOpenModal}) => {
             <ToggleButton value="all" onClick={() => setToggle('all')}>All</ToggleButton>
           }
           <Divider />
-          {toggle === 'web app' ?
+          {toggle === 'collaboratedProject' ?
             <ToggleButton active value="Collaboration Project" onClick={() => setToggle('Collaboration Project')}>Collaborated Project</ToggleButton>
             :
             <ToggleButton value="Collaboration Project" onClick={() => setToggle('Collaboration Project')}>Collaborated Project</ToggleButton>
           }
-          {toggle === 'machine learning' ?
+          {toggle === 'personalProject' ?
             <ToggleButton active value="Personal Project" onClick={() => setToggle('Personal Project')}>Personal Project</ToggleButton>
             :
             <ToggleButton value="Personal Project" onClick={() => setToggle('Personal Project')}>Personal Project</ToggleButton>
+          }
+          {toggle === 'blogs' ?
+            <ToggleButton active value="Blogs" onClick={() => setToggle('Blogs')}>Blogs</ToggleButton>
+            :
+            <ToggleButton value="Blogs" onClick={() => setToggle('Blogs')}>Blogs</ToggleButton>
           }
         </ToggleButtonGroup>
         <CardContainer>

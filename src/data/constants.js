@@ -116,6 +116,11 @@ export const Bio = {
             image:
               "https://upload.wikimedia.org/wikipedia/commons/c/ce/Google_cloud.png",
         },
+        {
+          name: "Azure",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Microsoft_Azure.svg/1200px-Microsoft_Azure.svg.png",
+        },
       ],
     },
     {
@@ -163,10 +168,32 @@ export const Bio = {
   export const experiences = [
     {
       id: 0,
+      img: "https://media.licdn.com/dms/image/C560BAQF_upD0Bimgvg/company-logo_200_200/0/1659673023623/businessfitness_logo?e=1726099200&v=beta&t=HT2FY5LSib2dg4DvFarNY9FvbSUUt2QAdB5onoa1-hY",
+      role: "Software Engineer",
+      company: "Business Fitness",
+      date: "Feb 2024 - Present",
+      desc: `• Developed and maintained full-stack web applications, specializing in Angular and .NET, to deliver high-quality software solutions. 
+      • Designed and implemented complex accounting and document management systems, enhancing operational efficiency and accuracy.
+      • Leveraged Azure and MSSQL to securely process, upload, and download data, ensuring robust security and data integrity.
+      • Collaborated with cross-functional teams to deliver software solutions that met client requirements and business objectives.
+      • Developed efficient and scalable .NET APIs to facilitate seamless integration and interaction with various external systems.
+      • Created dynamic, user-friendly interfaces using Angular, improving user experience and application performance.
+      • Utilized Entity Framework Core to handle database migrations, ensuring smooth and efficient transitions with minimal downtime.`,
+      skills: [
+        "Angular",
+        "Node JS",
+        "Azure DevOps",
+        "MSSQL",
+        "ASP .NET",
+        "Docker",
+      ],
+    },
+    {
+      id: 1,
       img: "https://firebasestorage.googleapis.com/v0/b/portfolio-3b961.appspot.com/o/ebottli.png?alt=media&token=38a8b886-fe8d-4153-83ac-515fa170397c",
       role: "Software Engineer",
       company: "eBottli",
-      date: "Apr 2023 - Present",
+      date: "Apr 2023 - Feb 2024",
       desc: `• Responsible for frontend and backend development software product, while mentoring interns to contribute effectively to web and mobile app projects. \n• Engaged directly with clients and stakeholders to gather requirements, driving the design and implementation of modules and services that enhanced a SAAS product dedicated to wines and grapes production tracking.\n• Integrated RESTful APIs and used Swagger API for testing purpose, notably Stripe and Google Map API, into client web applications\n• Perform unit test, automated testing to ensure seamless functionality for client web applications.\n• Successfully deployed web application for production and client’s demo using AWS Lambda, S3, and CloudFront.\n• Work in an agile / scrum development environment, making daily report to CTO by technical documentation in daily sprint meetings.`,
       skills: [
         "Angular",
@@ -180,8 +207,8 @@ export const Bio = {
       ],
     },
     {
-      id: 1,
-      img: "https://media.licdn.com/dms/image/C560BAQHNdVbuCxxmwQ/company-logo_200_200/0/1631578248124/bambrick_legal_logo?e=1710979200&v=beta&t=EX6l_E1zQIV9KtmSK2G1pG5d8u-gjtGgVFShJ9FCMvk",
+      id: 2,
+      img: "https://media.licdn.com/dms/image/C560BAQHNdVbuCxxmwQ/company-logo_200_200/0/1631578248124/bambrick_legal_logo?e=1726099200&v=beta&t=cG2bZ5hdu3yr5JvhJ6XQ9s9xON94NVA0kD5mlvR99tQ",
       role: "AI Research Assistant",
       company: "Bambrick Legal",
       date: "Apr 2023 - Sep 2023",
@@ -203,8 +230,8 @@ export const Bio = {
       ],
     },
     {
-      id: 2,
-      img: "https://media.licdn.com/dms/image/D5603AQEBtqwPlnd1vg/profile-displayphoto-shrink_800_800/0/1680921187838?e=1708560000&v=beta&t=HaGgMWZ61Qnskxt05JjGJ2OHmPQTNhd9cl5-s1YJ3r0",
+      id: 3,
+      img: "https://media.licdn.com/dms/image/D560BAQGOfMTENdznKQ/company-logo_200_200/0/1684933450308/jung_talents_logo?e=1726099200&v=beta&t=PY2aTQzgRdr8Y-WO_ugRPpNYTcmlXKb9tDbJfXF4hLY",
       role: "Software Engineer",
       company: "Jung Talents",
       date: "Sep 2021 - Jan 2023",
@@ -234,7 +261,7 @@ export const Bio = {
   export const education = [
     {
       id: 0,
-      img: "https://media.licdn.com/dms/image/C560BAQHDymBawc5Ltg/company-logo_200_200/0/1638754303322/uniofadelaide_logo?e=1710979200&v=beta&t=PLSoHojmpvQ_uERADsAAlZ-JBkmTlpcQ8w7v2FhjuQk",
+      img: "https://upload.wikimedia.org/wikipedia/en/thumb/5/51/University-of-Adelaide-Crest.svg/1200px-University-of-Adelaide-Crest.svg.png",
       school: "The University of Adelaide",
       date: "Sep 2020 - July 2023",
       grade: "5.913 / 7 GPA",
@@ -402,6 +429,34 @@ export const Bio = {
       private: false,
       github: "https://github.com/rthinh2002/EnglishLearningApp",
       webapp: "https://defined-english.vercel.app/",
+    },
+    {
+      id: 7,
+      title: "Importance of Communication, Problem-Solving, and Collaboration in the Workplace",
+      description:
+        "Unlocking Success: The Importance of Communication, Problem-Solving, and Collaboration in the Workplace",
+      image:
+        "https://blogger.googleusercontent.com/img/a/AVvXsEigm95o5V0Hf_mVtCalGnBaS8a2-cesMDxWs9olg9uOgPVDCZIKwqL-sUoJPTmOUuRX7_rPKiFgBRnVYgCmOMrpGmqV30fpm6LJissXrqkkH7mDwk-cRQ0jHnejyuNAHIFZcjZbGqUfFnkO3e8bw7LyhFafxSmdYb-cE4gmYmfx1aKbEXM1KaHyPmts9hc=w468-h468",
+      tags: [
+        "Blog",
+      ],
+      category: "Blogs",
+      private: true,
+      blog: "https://sacres1906.blogspot.com/2024/03/unlocking-success-importance-of.html",
+    },
+    {
+      id: 7,
+      title: "Cost Benefit Analysis",
+      description:
+        "Cost Benefit Analysis for making decisions about work, health, and safety initiatives.",
+      image:
+        "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYtsmwx1f4SAZxV7LV7ZZ2Z8ktXJ7RBa4S8MlbXBC8PYEilDW7eni48CJmA6eW02Qi_jWJUAwArmvP1Rpkyxk3wQvK_yxEFxVKMGwAVT2gV08N8SRQ9eXy_3sTA78ITKBgpU6bIgqomAHgZrmaJt2RdjAIKCWhDa6i0LX8gCfmlM9amSyKaLAhYxSUeZA/s320/Cost-Benefit-Analysis.webp",
+      tags: [
+        "Blog",
+      ],
+      category: "Blogs",
+      private: true,
+      blog: "https://sacres1906.blogspot.com/2023/10/cost-benefit-analysis.html",
     },
   ];
   

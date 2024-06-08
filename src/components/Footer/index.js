@@ -100,10 +100,9 @@ function Footer() {
             <SocialMediaIcon href="mailto:rthinh2002@gmail.com" target="display"><EmailIcon /></SocialMediaIcon>
             <SocialMediaIcon href="tel:+61474509786" target="display"><LocalPhoneIcon /></SocialMediaIcon>
             <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
-            <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
-          &copy; 2023 Peter Le. All rights reserved.
+          &copy; 2024 Peter Le. All rights reserved.
         </Copyright>
 
       </FooterWrapper>
